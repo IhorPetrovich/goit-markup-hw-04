@@ -24,6 +24,7 @@ h1,h2,h3 {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
+    display: flex;
 }
 img{
     display: block;
