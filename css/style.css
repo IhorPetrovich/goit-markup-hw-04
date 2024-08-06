@@ -304,6 +304,7 @@ display: inline-block;
 
 .logo-footer {
     color: #f4f4fd;
+    display: inline-block;
 }
 .text-footer {
     line-height: 1.5;
