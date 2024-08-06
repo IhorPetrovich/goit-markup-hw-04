@@ -225,7 +225,6 @@ display: flex;
 gap: 24px;
 align-items: center;
 justify-content: center;
-flex-direction: column;
 }
 .section-list-workers{
 width: calc((100% - 72px) / 4);
@@ -306,6 +305,7 @@ gap: 8px;
     padding: 100px 0;
 }
 .logotype-footer{
+    display: inline-block;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
 font-size: 18px;
@@ -313,7 +313,6 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
-display: inline-block;
 margin-bottom: 16px;
 }
 
