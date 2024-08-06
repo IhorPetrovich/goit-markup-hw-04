@@ -161,8 +161,15 @@ width: 264px;
 height: 104px;
 }
 
-.section-title {
-    visibility: hidden;
+.visually-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
 }
 .section-list{
     display: flex;
@@ -229,6 +236,7 @@ color: #434455;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    text-align: center;
 }
 
 .section-portfolio{
