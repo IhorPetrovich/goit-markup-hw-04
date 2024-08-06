@@ -301,13 +301,12 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
-margin-bottom: 16px;
 display: inline-block;
+margin-bottom: 16px;
 }
 
 .logo-footer {
     color: #f4f4fd;
-    display: inline-block;
 }
 .text-footer {
     line-height: 1.5;
