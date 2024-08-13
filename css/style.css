@@ -28,6 +28,7 @@ p{
     margin: 0 auto;
     padding: 0 15px;
 }
+
 .container-header{
     display: flex;
     align-items: center;
@@ -121,6 +122,14 @@ gap: 40px;
     background-color: #2e2f42;
 height: 600px;
 padding: 188px 0;
+background-image: linear-gradient(
+    rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7),
+), 
+    url(../images/backgroundphoto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 .title {
     font-weight: 700;
@@ -185,6 +194,13 @@ padding: 120px 0;
 .section-list{
     display: flex;
     gap: 24px;
+}
+.icon-second-section {
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+    background: #f4f4fd;
 }
 .section-list-item {
     background-color: #ffffff;
@@ -251,6 +267,13 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 text-align: center;
+}
+.container-icon{
+    display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+gap: 24px;
 }
 
 .section-portfolio{
